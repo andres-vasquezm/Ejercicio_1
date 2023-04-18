@@ -1,0 +1,37 @@
+.color{
+    color: red;
+}
+.color-hexadecimal{
+    color: #9a031e;
+}
+.color-rgb {
+    color: rgb(100, 71 ,200);
+}
+.color-rgba {
+    color: rgba(10, 10, 10, 0.2);
+}
+
+/* Fondos */
+.fondo{
+    background-color: cornflowerblue;
+    background-image: url(https://imgs.search.brave.com/znXCXuEDSTrFzXVLQDq5KFW8-S4_8weCceVa6qoxNZ8/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5Z/SWxfd1d5SG11ZGtX/b1hoczBQd0pnSGFF/SyZwaWQ9QXBp);
+    background-position: center center;
+}
+
+/* Tamaño */
+.ancho {
+    background-color: bisque;
+    width: 100px;
+}
+.alto{
+    background-color: blue;
+    height: 200px;
+}
+.tarjeta{
+    border: solid;
+    border-color: rgb(45, 34 ,78);
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+
+}
