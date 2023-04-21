@@ -9,6 +9,7 @@
 }
 
 
-.boton .boton-1::after{
+.boton .boton-1::before{
     content: "¡Hello!";
+    text-align: center;
 }
