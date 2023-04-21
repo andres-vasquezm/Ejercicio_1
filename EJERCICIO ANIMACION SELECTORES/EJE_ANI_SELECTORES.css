@@ -1,0 +1,14 @@
+.boton-1:hover{
+    color: white;
+    background-color: green;
+
+}
+
+.boton p{
+    visibility: hidden;
+}
+
+
+.boton .boton-1::after{
+    content: "¡Hello!";
+}
