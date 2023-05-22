@@ -1,0 +1,56 @@
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type='password']{
+    color: red;
+}
+
+.input-moderno{
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    outline: none;
+    padding: 5px;
+    color: #696969;
+}
+.input-moderno:focus{
+    border-bottom: 1px solid #696969;
+}
+.input-moderno::placeholder{
+    color: #e2e2e2;
+}
+.input-background{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.input-background::placeholder{
+    color: #ccc;
+}
+.input-search{
+    padding: 10px;
+    padding-left: 30px;
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px;
+    background-image: url('../mg/pngtree-search-icon-creative-design-template-png-image_1998500.jpg');
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+textarea{
+    resize: none;
+}
+select{
+    width: 100%;
+    padding: 15px;
+    background-color: #ccc;
+}
